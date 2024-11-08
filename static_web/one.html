@@ -1,26 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        .col img{
-            display: block;
-            margin: auto;
-        }
-        .col h4{
-            text-align: center;
-        }
-
-    </style>
+    
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cukrarna</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+         h1{
+             text-align: center;
+         }
+        .col img{
+            display: block;
+            margin: auto;
+            height: 200px;
+        }
+        .col h4{
+            text-align: center;
+        }
+        .col {
+            position: relative;
+            display: table;
+            border: 2px solid;
+            border-radius: 25px;
+            border-color: grey;
+            padding:20px;
+            width:150px;
+            height:570px;
+        }
+    
+        .buy{
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            bottom: 30px;
+            left: 20px;
+            right: 20px;
+        }
+        .buy a{
+            background-color:#ffa53f;
+            border-color:#ffa700
+        }
+
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">CukrARK</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -55,34 +84,43 @@
         </div>
     </nav>
     <div class = "container">
-        <h1>&#128293Cukrárna fire&#128293</h1>
-        <p>Naše cukrárna je opravdu fire &#128293🤤&#128293&#128293🤤🤤</p>
+        <h1> CukrARK</h1>
+        <p>Naše cukrárna je opravdu fire </p>
         <h3> Mnam Mnam</h3>
 
         <p>Cukrárna je místo sloužící k maloobchodnímu prodeji a většinou také k přímé konzumaci zákusků, dortů a jiných sladkostí. Cukrárny bývají obvykle vybaveny stoly a židlemi, u kterých je možné si zákusek sníst a vypít si čaj, dát si kávu, čokoládu nebo limonádu.</p>
         <div class="row">
             <div class="col">
-                <img src="https://www.lahudky.online/media/catalog/product/cache/2ddbbf388a0cb3cfd62cac9d5d91627c/e/p/ep_103690_1.jpeg" alt="vetrnik" width="250" >
+                <img src="https://www.lahudky.online/media/catalog/product/cache/2ddbbf388a0cb3cfd62cac9d5d91627c/e/p/ep_103690_1.jpeg" alt="vetrnik">
                 <br>
-                <h4>Větrník🤤</h4>
+                <h4>Větrník</h4>
                 <p> Větrník jerancouzský dezert kulovitého tvaru z odpalovaného těsta typicky plněný sladkou náplní jako je šlehačka, žloutkový krém nebo zmrzlina. Na povrchu může být dezert ozdobený čokoládovou polevou, karamelem nebo moučkovým cukrem.</p>
-                <h6>Cena: 45Kč</h6>
+                <div class="buy">
+                   <h6>Cena: 45 Kč</h6> 
+                   <a href="" class="btn btn-primary">Koupit</a>
+                </div>   
             </div>
             <div class="col">
-                <img src="https://www.frencl.cz/editor/image/eshop_products/383_l.png" alt="kremrole" width="272" >
+                <img src="https://www.frencl.cz/editor/image/eshop_products/383_l.png" alt="kremrole">
                 <br>
-                <h4>Kremrole🤤</h4>
+                <h4>Kremrole</h4>
                 <p>Sladký cukrářský výrobek, pečivo z listového těsta. Kremrole má tvar válce, kdy těsto nařezané na proužky vhodné délky, je stáčeno do šroubovice a namotává se na speciální kuželovité trubičky, na kterých se následně peče.</p>
-                <h6>Cena: 35,50 Kč</h6>
+                <div class="buy">
+                   <h6>Cena: 35,50 Kč</h6> 
+                   <a href="" class="btn btn-primary">Koupit</a>
+                </div> 
             </div>
             <div class="col">
-                <img src="https://ollies.cz/images/produkt/resized/Tiramisu9_1100x1320.jpg" alt="tiramisu" width="200" >
+                <img src="https://ollies.cz/images/produkt/resized/Tiramisu9_1100x1320.jpg" alt="tiramisu">
                 <br>
-                <h4>Tiramisu🤤</h4>
-                <p>Tiramisu se vyrábí ze sýra mascarpone, který se šlehá se žloutky a cukrem, případně šlehačkou (podle zvyklostí). V misce se prokládá speciálními cukrářskými piškoty, namočenými do silného espresa, které může být ještě ochuceno italským mandlovým likérem Amaretto. Povrch dezertu se posype práškovým kakaem.</p>
-                <h6>Cena: 75,75 Kč</h6>
+                <h4>Tiramisu</h4>
+                <p>Tiramisu se vyrábí ze sýra mascarpone, který se šlehá se žloutky a cukrem, případně šlehačkou. V misce se prokládá speciálními cukrářskými piškoty, namočenými do silného espresa, které může být ještě ochuceno italským mandlovým likérem Amaretto. Povrch dezertu se posype práškovým kakaem.</p>
+                <div class="buy">
+                   <h6>Cena: 75 Kč</h6> 
+                   <a href="" class="btn btn-primary">Koupit</a>
+                </div> 
             </div>
           </div>
     </div>
 </body>
-</html>
+    </html>
