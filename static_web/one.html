@@ -1,25 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        .col img{
+            display: block;
+            margin: auto;
+        }
+        .col h4{
+            text-align: center;
+        }
+
+    </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>One</title>
+    <title>Cukrarna</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <h1>One</h1>
-    <div>
-        <p>V tradičních wiki systémech je každá stránka reprezentována třemi způsoby: HTML kód, stránka jako výsledek zobrazení tohoto kódu prohlížečem a uživatelsky editovatelný zdrojový kód, ze kterého serverem vytváří HTML kód. Posledně jmenovaný formát, známý jako wikitext, je psán ve zjednodušeném značkovacím jazyku, jehož styl a syntaxe může být v jednotlivých implementacích odlišná.
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+    <div class = "container">
+        <h1>&#128293Cukrárna fire&#128293</h1>
+        <p>Naše cukrárna je opravdu fire &#128293🤤&#128293&#128293🤤🤤</p>
+        <h3> Mnam Mnam</h3>
 
-            Důvodem k tomuto návrhu je, že HTML se svou velkou zásobou vnořených tagů jee velmi komplikovaný pro rychlou editaci a odvádí pozornost od obsahu stránky. To, že uživatelé nemohou využít veškerou funkcionalitu, kterou HTML poskytuje, jako je JavaScript a CSS, se jeví spíše jako výhoda, protože je tím zajištěna konzistence vzhledu.</p>
+        <p>Cukrárna je místo sloužící k maloobchodnímu prodeji a většinou také k přímé konzumaci zákusků, dortů a jiných sladkostí. Cukrárny bývají obvykle vybaveny stoly a židlemi, u kterých je možné si zákusek sníst a vypít si čaj, dát si kávu, čokoládu nebo limonádu.</p>
+        <div class="row">
+            <div class="col">
+                <img src="https://www.lahudky.online/media/catalog/product/cache/2ddbbf388a0cb3cfd62cac9d5d91627c/e/p/ep_103690_1.jpeg" alt="vetrnik" width="250" >
+                <br>
+                <h4>Větrník🤤</h4>
+                <p> Větrník jerancouzský dezert kulovitého tvaru z odpalovaného těsta typicky plněný sladkou náplní jako je šlehačka, žloutkový krém nebo zmrzlina. Na povrchu může být dezert ozdobený čokoládovou polevou, karamelem nebo moučkovým cukrem.</p>
+                <h6>Cena: 45Kč</h6>
+            </div>
+            <div class="col">
+                <img src="https://www.frencl.cz/editor/image/eshop_products/383_l.png" alt="kremrole" width="272" >
+                <br>
+                <h4>Kremrole🤤</h4>
+                <p>Sladký cukrářský výrobek, pečivo z listového těsta. Kremrole má tvar válce, kdy těsto nařezané na proužky vhodné délky, je stáčeno do šroubovice a namotává se na speciální kuželovité trubičky, na kterých se následně peče.</p>
+                <h6>Cena: 35,50 Kč</h6>
+            </div>
+            <div class="col">
+                <img src="https://ollies.cz/images/produkt/resized/Tiramisu9_1100x1320.jpg" alt="tiramisu" width="200" >
+                <br>
+                <h4>Tiramisu🤤</h4>
+                <p>Tiramisu se vyrábí ze sýra mascarpone, který se šlehá se žloutky a cukrem, případně šlehačkou (podle zvyklostí). V misce se prokládá speciálními cukrářskými piškoty, namočenými do silného espresa, které může být ještě ochuceno italským mandlovým likérem Amaretto. Povrch dezertu se posype práškovým kakaem.</p>
+                <h6>Cena: 75,75 Kč</h6>
+            </div>
+          </div>
     </div>
-    <h2> Et ex harum itaque</h2>
-    <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quis atque odit et quia magnam consequatur dicta quisquam natus, amet cumque id? Eveniet deserunt ad delectus quos, laboriosam numquam eius.</p>
-        <img src="https://e7.pngegg.com/pngimages/574/771/png-clipart-shrek-shrek.png" alt="shrek" width="250" height="250">
-        <a href="two.html">odkaz na web TWO</a>
-        <img src="https://www.svgrepo.com/show/530592/creativity.svg" alt="zarovka svg" width="100" height="100"> 
-    </div>
-    <h4>Lorem ipsum dolor</h4>
-    <a href="https://www.gyarab.cz">stranky gymnazia arabska</a>
 </body>
 </html>
