@@ -16,19 +16,20 @@ body{
     background-image: url("croissant_bg.png");
     background-repeat: repeat;
 }
- h1{
-    padding: 3%;
+.title{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+p{
     font-family: "Comfortaa", sans-serif;
-    text-align: center;
-    font-weight: 800;
-    font-size: 50px;
- }
- p{
+}
+h3{
     font-family: "Comfortaa", sans-serif;
- }
- h3{
-    font-family: "Comfortaa", sans-serif;
- }
+}
 .col-sm-3 img{
     display: block;
     margin: auto;
