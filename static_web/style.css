@@ -5,6 +5,13 @@
     border-color: #fff6d4;
     padding-left: 2%;
 }*/
+
+.nav-link{
+    font-size: 150%;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 500;
+    color: #facf12;
+}
 .navbar-brand{
     font-size: 200%;
     font-family: "Comfortaa", sans-serif;
