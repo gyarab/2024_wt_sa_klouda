@@ -24,12 +24,12 @@ body{
     background-repeat: repeat;
 }
 .title{
-    width: 25%;
+    width: 350px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 2%;
     margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
 }
 p{
     font-family: "Comfortaa", sans-serif;
@@ -59,6 +59,9 @@ h3{
     display: block;
     margin: auto;
     height: 150px;
+    object-fit:contain;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .card-title {
     font-family: "Comfortaa", sans-serif;
@@ -81,12 +84,16 @@ h3{
     border-color: grey;
     padding:2%;
     padding-bottom: 60px;
-    width: 22%;
+    width: 8%;
+    max-width: 300px;
     transition: box-shadow 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card-img-top{
-    padding: 5%;
-    height: 250px;
+    width: 70%;
+    max-width: 300px;
+    margin-top: 5%;
 }
 .card:hover {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
@@ -104,10 +111,12 @@ h3{
     bottom: 20px;
 }
 footer{
-    padding-top: 50px;
     margin-bottom: -15px;
     background-color: rgb(207, 152, 56, 0.8);
+}
+.footer-text{
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 2%;
+    padding-top: 50px;
 }
