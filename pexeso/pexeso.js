@@ -97,14 +97,15 @@ let id = ""
 
 
 async function flip(poradi){
+    
     let img = document.getElementById(poradi)
     
-    console.log(poradi)
-    console.log(pole[poradi-1])
-    console.log(karty[pole[poradi-1]].src)
+    //console.log(poradi)
+    //console.log(pole[poradi-1])
+    //console.log(karty[pole[poradi-1]].src)
     img.src = karty[pole[poradi-1]].src
 
-    if(id!=""){
+    if(id!=""&&id!=poradi){
         let img2 = document.getElementById(id)
         if(pole[poradi-1]==pole[id-1]){
             score++
